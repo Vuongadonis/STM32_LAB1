@@ -223,8 +223,8 @@ int main(void)
  800022a:	4694      	mov	ip, r2
  800022c:	4618      	mov	r0, r3
  800022e:	f000 f919 	bl	8000464 <setNumberOnClock.2>
-		  time_counter = 100;
- 8000232:	2364      	movs	r3, #100	; 0x64
+		  time_counter = 10;
+ 8000232:	230a      	movs	r3, #10
  8000234:	617b      	str	r3, [r7, #20]
 	  }
 	  HAL_Delay(DELAY);
